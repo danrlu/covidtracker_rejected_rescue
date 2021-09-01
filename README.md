@@ -1,17 +1,19 @@
-This page contains notes for people submitting genomes to GISAID or GenBank. 
+This page contains notes based on our submission experience to GISAID or GenBank in hopes to make it easier for others. 
 
 [What it means when the genome submissions don't get accepted immediately](#when-covid-genome-submissions-do-not-get-accepted-immediately), 
 
-how to fix the frameshift errors or when not to fix, 
+[how to fix the frameshift errors and when not to fix one](#types-of-frameshifts-and-how-to-fix-them-or-not-to-fix-them), 
 
-and some interesting observations of where the real frameshift mutations tend on land the genome.
+and [some interesting observations of where the real frameshift mutations tend on appear the genome](#some-interesting-observations).
 
 
 # When COVID genome submissions do not get accepted immediately
 
 ### GISAID 
 
-GISAID only scans for [frameshifts](https://en.wikipedia.org/wiki/Frameshift_mutation) in the coding region, which can be caused by deletions or insertions of non-triplet of nucleotides. They return those sequences to submitters and direct quote from them "**your sequences with frameshift detection have not been rejected**, even if you want us to release the sequences as they are, you just have to let us know by email". 
+Behind the scene, GISAID runs the submitted genome through https://www.gisaid.org/epiflu-applications/covsurver-mutations-app/ and by default (see other options below) will not pass sequences with `FRAMESHIFT` (). Sometimes the comment looks like `Insertion of 11 nucleotide(s) found at refpos 27850 (FRAMESHIFT). NS7b without BLAST coverage. Stretch of NNNs.` but the only part that matters for submission is the frameshift. 
+
+They return those sequences to submitters and direct quote from them "**your sequences with frameshift detection have not been rejected**, even if you want us to release the sequences as they are, you just have to let us know by email". 
 
 The submitters can do one of the following:
 
@@ -48,3 +50,8 @@ iVar does a fantastic job assembling genomes. However a fasta file with a linear
 The genomic sequence in a fasta file is one linear sequence and things become tricky when there is more than one type of genomes, such as natural within host variation or . It allows some
 
 # Some interesting observations
+
+
+
+#####Note 1
+in the `comment` column from the output `query summary report` file on the bottom of the result page
