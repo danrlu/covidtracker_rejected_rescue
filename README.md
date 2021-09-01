@@ -2,9 +2,9 @@ This page contains notes for people submitting genomes to GISAID or GenBank.
 
 [What it means when the genome submissions don't get accepted immediately](#when-covid-genome-submissions-do-not-get-accepted-immediately), 
 
-how (not) to fix the frameshift errors, 
+how to fix the frameshift errors or when not to fix, 
 
-and some interesting pieces of biology that came from this process.
+and some interesting observations of where the real frameshift mutations tend on land the genome.
 
 
 # When COVID genome submissions do not get accepted immediately
@@ -46,3 +46,5 @@ iVar does a fantastic job assembling genomes. However a fasta file with a linear
 ### Tough nuts. No good solution.
 
 The genomic sequence in a fasta file is one linear sequence and things become tricky when there is more than one type of genomes, such as natural within host variation or . It allows some
+
+# Some interesting observations
