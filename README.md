@@ -1,4 +1,13 @@
-# When COVID genome submissions don't get accepted immediately
+This page contains notes for people submitting genomes to GISAID or GenBank. 
+
+[What it means when the genome submissions don't get accepted immediately](#-when-covid-genome-submissions-do-not-get-accepted-immediately), 
+
+how (not) to fix the frameshift errors, 
+
+and some interesting pieces of biology that came from this process.
+
+
+# When COVID genome submissions do not get accepted immediately
 
 ### GISAID 
 
