@@ -53,5 +53,5 @@ The genomic sequence in a fasta file is one linear sequence and things become tr
 
 
 
-#####Note 1
+##### Note 1
 in the `comment` column from the output `query summary report` file on the bottom of the result page
